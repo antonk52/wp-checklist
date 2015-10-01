@@ -38,9 +38,9 @@ This list has been intended to fit as many projects as possible. Therefore, it i
 ```
 function hide_update_notice_to_all_but_admin_users()
 {
-    if (!current_user_can('update_core')) {
-        remove_action( 'admin_notices', 'update_nag', 3 );
-    }
+  if (!current_user_can('update_core')) {
+    remove_action( 'admin_notices', 'update_nag', 3 );
+  }
 }
 add_action( 'admin_head', 'hide_update_notice_to_all_but_admin_users', 1 );
 ```
@@ -62,7 +62,16 @@ define( 'WP_POST_REVISIONS', 3 );
 8. To use custom logo on the login page copy the code below to your funcions.php
 
 ```
-function custom_login_logo() { echo '<style type="text/css"> h1 a { background-image: url('.get_bloginfo('template_directory').'/images/custom-login-logo.png) !important; } </style>'; } 
+function custom_login_logo() 
+{ 
+  echo '
+  <style type="text/css"> 
+    h1 a { 
+      background-image: url('.get_bloginfo('template_directory').'/images/CUSTOM-LOGIN-LOGO.png) !important; 
+    } 
+  </style>
+  ';
+} 
 add_action('login_head', 'custom_login_logo');
 ```
 
