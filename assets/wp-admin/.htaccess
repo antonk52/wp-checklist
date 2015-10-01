@@ -1,0 +1,14 @@
+AuthUserFile /dev/null
+AuthGroupFile /dev/null
+AuthName "WordPress Admin Access Control"
+AuthType Basic
+<LIMIT GET>
+order deny,allow
+deny from all
+# Whitelist Your IP address
+allow from xx.xx.xx.xxx
+# Whitelist Your Office's IP address
+allow from xx.xx.xx.xxx
+# Whitelist Your IP address While Your Traveling (Delete When You Come Back Home)
+allow from xx.xx.xx.xxx
+</LIMIT>
