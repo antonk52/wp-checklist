@@ -3,25 +3,25 @@
 
 _This list has been intended to fit as many projects as possible. Therefore, it is okay if your wordpress site developing process distinguishes from what you will see below._
 
-- [ ] Change permalinks ([1](#1-settingspermalinks))
-- [ ] Don’t crop on thumbnails ([2](#2-settingsmedia-uncheck-crop-on-thumbnails))
-- [ ] Disable comments ([3](#3-settingsdiscussion-uncheck-leave-comments-on-new-posts))
+- [ ] Change permalinks ([1](#1-change-permalinks))
+- [ ] Don’t crop on thumbnails ([2](#2-dont-crop-on-thumbnails))
+- [ ] Disable comments ([3](#3-disable-comments))
 - [ ] essential pages
 - [ ] Set static Home and Blog page
 - [ ] enable and set up needed plugins
 - [ ] set up frequent backups
 - [ ] child theme
-- [ ] hide update notifications for all but admin ([4](#4-to-hide-update-notifications-for-all-but-admin-user-copy-code-below-to-your-functionsphp-file))
-- [ ] hide wordpress version ([5](#5-to-hide-wp-version-add-following-to-your-functionsphp-file))
+- [ ] hide update notifications for all but admin ([4](#4-hide-notifications))
+- [ ] hide wordpress version ([5](#5-hide-version))
 - [ ] delete readme from the root folder
-- [ ] Whitelist for wp-admin ([6](#6-if-you-have-a-static-ip-and-you-know-all-the-ips-from-where-people-will-access-the-admin-part-of-the-site-you-can-copy-the--htaccess-file-from-assetswp-adminhtaccess-inside-your-wp-admin-folder-not-root-directory-dont-forgot-to-input-your-ip-to-be-able-to-access-the-admin-area-yourself))
+- [ ] Whitelist for wp-admin ([6](#6-whitelist-wp-admin-access))
 - [ ] Set file permissions
 - [ ] Correct display of page titles
-- [ ] Limit the number of revisions on each post ([7](#7-to-set-limit-of-revisions-for-each-post-copy-code-below-to-your-wp-configphp-file))
+- [ ] Limit the number of revisions on each post ([7](#7-limit-revisions))
 - [ ] Custom login page url
-- [ ] Custom logo on login page ([8](#8-to-use-custom-logo-on-the-login-page-copy-the-code-below-to-your-funcionsphp))
+- [ ] Custom logo on login page ([8](#8-custom-logo))
 - [ ] Generate sitemap.xml
-- [ ] .htaccess -> gzip, expires headers ([9](#9-place-htaccess-from-assets-in-your-root-directory))
+- [ ] .htaccess -> gzip, expires headers ([9](#9-htacces-with-gzip-and-expire-headers))
 - [ ] Google Analytics
 - [ ] 404 page
 - [ ] Add favicon
@@ -66,7 +66,7 @@ To set a limit of revisions for each post, copy the code below to your wp-config
 define( 'WP_POST_REVISIONS', 3 );
 ```
 
-##### 8. 
+##### 8. Custom logo
 To use a custom logo on the login page, copy the code below to your funcions.php
 ```
 function custom_login_logo() { echo '<style type="text/css"> h1 a { background-image: url('.get_bloginfo('template_directory').'/images/custom-login-logo.png) !important; } </style>'; } 
