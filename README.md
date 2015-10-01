@@ -3,25 +3,25 @@
 
 _This list has been intended to fit as many projects as possible. Therefore, it is okay if your wordpress site developing process distinguishes from what you will see below._
 
-- [ ] Change permalinks ([1](#Settings/Permalinks))
-- [ ] Don’t crop on thumbnails ([2](#Settings/Media))
-- [ ] Disable comments (3)
+- [ ] Change permalinks ([1](#1-settingspermalinks))
+- [ ] Don’t crop on thumbnails ([2](#2-settingsmedia-uncheck-crop-on-thumbnails))
+- [ ] Disable comments ([3](#3-settingsdiscussion-uncheck-leave-comments-on-new-posts))
 - [ ] essential pages
 - [ ] Set static Home and Blog page
 - [ ] enable and set up needed plugins
 - [ ] set up frequent backups
 - [ ] child theme
-- [ ] hide update notifications for all but admin (4)
-- [ ] hide wordpress version (5)
+- [ ] hide update notifications for all but admin ([4](#4-to-hide-update-notifications-for-all-but-admin-user-copy-code-below-to-your-functionsphp-file))
+- [ ] hide wordpress version ([5](#5-to-hide-wp-version-add-following-to-your-functionsphp-file))
 - [ ] delete readme from the root folder
-- [ ] Whitelist for wp-admin (6)
+- [ ] Whitelist for wp-admin ([6](#6-if-you-have-a-static-ip-and-you-know-all-the-ips-from-where-people-will-access-the-admin-part-of-the-site-you-can-copy-the--htaccess-file-from-assetswp-adminhtaccess-inside-your-wp-admin-folder-not-root-directory-dont-forgot-to-input-your-ip-to-be-able-to-access-the-admin-area-yourself))
 - [ ] Set file permissions
 - [ ] Correct display of page titles
-- [ ] Limit the number of revisions on each post (7)
+- [ ] Limit the number of revisions on each post ([7](#7-to-set-limit-of-revisions-for-each-post-copy-code-below-to-your-wp-configphp-file))
 - [ ] Custom login page url
-- [ ] Custom logo on login page (8)
+- [ ] Custom logo on login page ([8](#8-to-use-custom-logo-on-the-login-page-copy-the-code-below-to-your-funcionsphp))
 - [ ] Generate sitemap.xml
-- [ ] .htaccess -> gzip, expires headers (9)
+- [ ] .htaccess -> gzip, expires headers ([9](#9-place-htaccess-from-assets-in-your-root-directory))
 - [ ] Google Analytics
 - [ ] 404 page
 - [ ] Add favicon
