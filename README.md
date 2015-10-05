@@ -52,7 +52,7 @@ add_action( 'admin_head', 'hide_update_notice_to_all_but_admin_users', 1 );
 ```
 
 ##### 5. Hide version
-To hide the WordPress version, add rhe following to your functions.php file
+To hide the WordPress version, add the following to your functions.php file
 ```
 <?php remove_action('wp_head', 'wp_generator'); ?>
 ```
@@ -67,21 +67,20 @@ define( 'WP_POST_REVISIONS', 3 );
 ```
 
 ##### 8. Custom logo
-To use a custom logo on the login page, copy the code below to your funcions.php
+To use a custom logo on the login page, copy the code below to your functions.php
 ```
-function custom_login_logo() 
-{ 
+function custom_login_logo()
+{
   echo '
-  <style type="text/css"> 
-    h1 a { 
-      background-image: url('.get_bloginfo('template_directory').'/images/CUSTOM-LOGIN-LOGO.png) !important; 
-    } 
+  <style type="text/css">
+    h1 a {
+      background-image: url('.get_bloginfo('template_directory').'/images/CUSTOM-LOGIN-LOGO.png) !important;
+    }
   </style>
   ';
-} 
+}
 add_action('login_head', 'custom_login_logo');
 ```
 
 ##### 9. .htacces with gzip and expire headers
 Place the .htaccess from `/assets` in this repo in your root directory.
-
