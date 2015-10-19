@@ -1,19 +1,19 @@
 # WP checklist
 ##### A checklist for a new Wordpress project
 
-_This list has been intended to fit as many projects as possible. Therefore, it is okay if your wordpress site developing process distinguishes from what you will see below._
+_This list is intended to fit as many projects as possible. Therefore, it is okay if your wordpress site developing process distinguishes from what you will see below._
 
 - [ ] Change permalinks ([1](#1-change-permalinks))
 - [ ] Don’t crop on thumbnails ([2](#2-dont-crop-on-thumbnails))
 - [ ] Disable comments ([3](#3-disable-comments))
-- [ ] essential pages (home, services, about, blog, contact, 404)
+- [ ] Essential pages (home, services, about, blog, contact, 404)
 - [ ] Set static Home and Blog page
-- [ ] enable and set up needed plugins
-- [ ] set up frequent backups
-- [ ] child theme
-- [ ] hide update notifications for all but admin ([4](#4-hide-notifications))
-- [ ] hide wordpress version ([5](#5-hide-version))
-- [ ] delete readme from the root folder
+- [ ] Enable and set up needed plugins
+- [ ] Set up frequent backups
+- [ ] Child theme
+- [ ] Hide update notifications for all but admin ([4](#4-hide-notifications))
+- [ ] Hide wordpress version ([5](#5-hide-version))
+- [ ] Delete readme from the root folder
 - [ ] Whitelist for wp-admin ([6](#6-whitelist-wp-admin-access))
 - [ ] Set file permissions
 - [ ] Correct display of page titles
