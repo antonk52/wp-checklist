@@ -6,7 +6,7 @@ _This list has been intended to fit as many projects as possible. Therefore, it 
 - [ ] Change permalinks ([1](#1-change-permalinks))
 - [ ] Don’t crop on thumbnails ([2](#2-dont-crop-on-thumbnails))
 - [ ] Disable comments ([3](#3-disable-comments))
-- [ ] essential pages
+- [ ] essential pages (home, services, about, blog, contact, 404)
 - [ ] Set static Home and Blog page
 - [ ] enable and set up needed plugins
 - [ ] set up frequent backups
@@ -23,7 +23,6 @@ _This list has been intended to fit as many projects as possible. Therefore, it 
 - [ ] Generate sitemap.xml
 - [ ] .htaccess -> gzip, expires headers ([9](#9-htacces-with-gzip-and-expire-headers))
 - [ ] Google Analytics
-- [ ] 404 page
 - [ ] Add favicon
 - [ ] Google Page Insights
 
