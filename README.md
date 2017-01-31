@@ -8,8 +8,10 @@ _This list is intended to fit as many projects as possible. Therefore, it is oka
 - [ ] Disable comments ([3](#3-disable-comments))
 - [ ] Essential pages (home, services, about, blog, contact, 404)
 - [ ] Set static Home and Blog page
-- [ ] Enable and set up needed plugins
-- [ ] Set up frequent backups
+- [ ] Enable and set up needed plugins 
+   - [ ] Image optimisation
+   - [ ] Performance
+   - [ ] Frequent backups
 - [ ] Child theme
 - [ ] Hide update notifications for all but admin ([4](#4-hide-notifications))
 - [ ] Hide wordpress version ([5](#5-hide-version))
