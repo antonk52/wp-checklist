@@ -25,6 +25,7 @@ _This list is intended to fit as many projects as possible. Therefore, it is oka
 - [ ] Google Analytics
 - [ ] Add favicon
 - [ ] Google Page Insights
+- [ ] Light House ([10](https://developers.google.com/web/tools/lighthouse/))
 - [ ] HTTPS
 
 ---
